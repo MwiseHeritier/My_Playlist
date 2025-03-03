@@ -1,0 +1,20 @@
+@media(max-width: 600px){
+    .playlist-container{
+        grid-template-columns: auto;
+        align-items: center;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 930px){
+    .playlist-container{
+        grid-template-columns: auto auto;
+        align-items: center;
+    }
+}
+
+@media (min-width: 930px) and (max-width: 1310px){
+    .playlist-container{
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+}
